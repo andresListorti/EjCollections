@@ -23,7 +23,7 @@ import Entidades.Pelicula;
 import Servicios.PeliculaService;
 
 public class Ej04 {
-    public static void main(String[] args) throws Exception {
+    
         PeliculaService serviceP = new PeliculaService();
         serviceP.crearPelicula();
         serviceP.mostrarTodaPeliculas();
@@ -33,5 +33,5 @@ public class Ej04 {
         serviceP.mostrarPeliculasOrdenTitulo();
         serviceP.mostrarPeliculasOrdenDirector();
 
-    }
+    
 }
