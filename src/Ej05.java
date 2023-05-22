@@ -15,7 +15,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class Ej05 {
-    public static void main(String[] args) throws Exception {
+    
         HashSet<String> paises = new HashSet<>();
         PaisesService ps = new PaisesService();
         paises.add("Argentina");
@@ -23,5 +23,5 @@ public class Ej05 {
         ps.agregarPaises(paises);
         ps.ordenarAlfabeticamente(paises);
         ps.eliminarPais(paises);
-    }
+    
 }
